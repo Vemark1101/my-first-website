@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box;
-    padding:0;
-    margin:0;
-    scroll-behavior:smooth;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
 }
 
 #header {
@@ -21,12 +20,12 @@ body{
 .nav ul {
     background-color: rgb(227, 227, 243);
     list-style-type: none;
-   
+
 }
 
 .nav ul li {
     display: inline-block;
-    padding: 10px;  
+    padding: 10px;
 }
 
 .nav li a {
@@ -38,14 +37,14 @@ body{
 
 aside {
     width: 95%;
-    height:2015px;
+    height: 2015px;
     background-color: rgb(255, 255, 255);
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-top: 10px;
     margin-right: 5px;
     margin-left: 5px;
-    
-    
+
+
 }
 
 aside h3 {
@@ -59,45 +58,45 @@ aside h4 {
 
 aside p {
     padding-top: 15px;
-    padding-left: 15px; 
+    padding-left: 15px;
 }
 
-aside ul{
-    margin-left:50px;
+aside ul {
+    margin-left: 50px;
     margin-top: 5px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 aside hr {
-    height:2px;
+    height: 2px;
     color: black;
-    background-color:black;
+    background-color: black;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 10px; 
-   
+    margin-bottom: 10px;
+
 }
 
 .left {
-    width:70%;
+    width: 70%;
     float: left;
-   background-color: rgb(218, 224, 218);
-   margin-bottom: 20px;
-   height:2040px;
-  
+    background-color: rgb(218, 224, 218);
+    margin-bottom: 20px;
+    height: 2040px;
+
 }
 
 .right {
-   float: right;
+    float: right;
     width: 30%;
     background-color: rgb(218, 224, 218);
-    height:2040px;
+    height: 2040px;
     margin-bottom: 20px;
 }
 
 .card {
     background-color: rgb(255, 255, 255);
-    width:95%;
+    width: 95%;
     margin-top: 20px;
     margin-left: 25px;
     margin-right: 15px;
@@ -110,14 +109,14 @@ aside hr {
 }
 
 .card p {
-    padding-top: 12px;  
+    padding-top: 12px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
 }
 
 .card h3 {
-    padding-top: 12px;  
+    padding-top: 12px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -130,8 +129,8 @@ aside hr {
     padding-bottom: 15px;
 }
 
-.card button{
-    color:white;
+.card button {
+    color: white;
     background-color: rgb(37, 122, 37);
     border-radius: 5px;
     padding: 5px;
